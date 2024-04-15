@@ -189,7 +189,16 @@ nav .fa{
 
     }
 }
+table {
 
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100vw;
+    height: 200px;
+    font-size: 15px;
+    text-align:center;
+
+}
 footer{
     padding: 5% 5% 5%;
     color: white;
