@@ -1,0 +1,127 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+        <title>Generative AI Development</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Sstyle.css">
+        <link rel="stylesheet" href ="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <section class="header">
+            <nav class = "banner">
+                <a href = "group.html"><img src = "image/homeButton.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick ="hideMenu()"></i>
+                    <ul>
+                        <li><a href = "group.html#About">About GenAi</a></li>
+                        <li><a href = "group.html#Types">Types</a></li>
+                        <li><a href = "concern.html">Concerns</a></li>
+                        <li><a href = "AI Generative Development.html">Development</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            
+            <div class = "GenAiConcern">
+                <h1> Concerns of Generative AI  </h1>
+                <p >As <strong>Generative AI</strong> continuous to advance, it brings with the concerns that ripple through society, technology, or even ethics.</p>
+
+                <p >Generative AI can create indistinguishable from the works of human which is awe-inspiring and alarming.</p>
+
+                <p >Generative AI has greatly contributed to society, but at the same time, it is equally crucial not to overlook the negative implications and concerns it has.
+                     (Golda et al., 2024) </p>
+            </div>
+        </section>
+
+        <!--------concerns-------->
+        <section class="background">
+            <h2 class="middle"></h2>
+            <div class="concern">
+                <div class="container">
+                    <input type="radio" name="slide" id="c1">
+                    <label for="c1" class="card">
+                        <div class="row">
+                            <div class="icon">▶</div>
+                            <div class="description">
+                                <h4>Reduces Customer Autonomy</h4>
+                                <p>Recent innovations in Artificial intelligence and automation has <br>reduced the customer's choices of being in center of decision making.</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c2">
+                    <label for="c2" class="card">
+                        <div class="row">
+                            <div class="icon">▷</div>
+                            <div class="description">
+                                <h4>AI and Cyber Security</h4>
+                                <p>Some of the Al innovations are based on Blockchain has provided <br>more transparency and security, however, cyber security seriousness <br>and frequency are expected to increase. Al can be used in targeted <br>attacks in which customers' financial data can be used for inappropriate <br>purposes.</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c3">
+                    <label for="c3" class="card">
+                        <div class="row">
+                            <div class="icon">▶</div>
+                            <div class="description">
+                                <h4>Privacy of Internet Users Data</h4>
+                                <p>Generative AI models often require large amounts of data, which can <br>include sensitive personal information. Ensuring that this data is used <br>responsibly and does not infringe on individual privacy is a significant <br>concern.</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c4">
+                    <label for="c4" class="card">
+                        <div class="row">
+                            <div class="icon">▷</div>
+                            <div class="description">
+                                <h4>Fairness and Biasness</h4>
+                                <p>The data used for Al algorithm are majoritarian based and minority <br>section of the population are not properly represented. </p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c5">
+                    <label for="c5" class="card">
+                        <div class="row">
+                            <div class="icon">▶</div>
+                            <div class="description">
+                                <h4>Accuracy and Reliability</h4>
+                                <p>The accuracy of information that Generative AI may vary. Since the <br>source of data is not limited to data provided by scholars, the <br>information provided might be potentially biassed or incorrect.</p>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="conclusion">
+                <h1 align="center"> So... </h1>
+
+                <p align="center">Since Generative AI allows content creation and needs a large data set to operate, the copyright and privacy of internet users' data may cause potential ramifications. The copyright issues between the user, Generative AI company (OpenAI), data itself is complex. There are debates where Generative AI uses unauthorised data to generate content, making the company liable for using copyrighted data. Some argue that AI acts as a tool, making it not liable.
+                </p>
+
+                <p align="center">There are various ongoing efforts to detect AI-generated media. In early 2023, OpenAI released a work-in-progress classifier to distinguish between machine-generated and human-written text to help mitigate concerns about running automated misinformation campaigns, among other problems. ( Dhamani, 2024, chapter 4)
+                </p>
+
+                <p align="center">Whatever the case maybe, if considering using Generative AI for any personal or commercial use, users should be mindful while using this technology.
+                </p>
+            </div>
+        </section>
+
+        <!-------footage------->
+        <footer>
+            <p> &#169 Communication </p>
+        </footer>
+
+<!----Javascript for toggle menu in phone landscape---->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
