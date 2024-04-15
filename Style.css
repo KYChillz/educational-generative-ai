@@ -36,7 +36,7 @@ div.plane {
 }
 div.BG {
     display: block;
-    background-image: url("image/Background.jpg");
+    background-image: linear-gradient(rgba(4,9, 30, 0.7), rgba(4,9, 30, 0.7)), url(image/GenAi1.jpg);
     background-size:cover;
     color: white;
 }
