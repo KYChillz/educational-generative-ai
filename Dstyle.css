@@ -194,3 +194,16 @@ nav .fa{
 
     }
 }
+
+footer{
+    padding: 5% 5% 5%;
+    color: white;
+    font-size: 20;
+    background: #6E427B;
+}
+
+p.foot {
+    text-align:center;
+    padding-top: 1rem;
+}
+
