@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 2;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+img.tp {
+    display: block;
+    max-width: 100%;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+input,
+button,
+textarea {
+    font:inherit;
+}
+
+
+h1 {
+
+    margin-top: 5rem;    
+    font-size: 100px;
+}
+div.plane {
+    padding: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    background-color:black;
+    color:white;
+    
+    
+}
+div.BG {
+    display: block;
+    background-image: url("image/Background.jpg");
+    background-size:cover;
+    color: white;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    padding-bottom: 2rem;
+}
+h1:before {
+    
+    content: attr(data-text);
+    position: absolute;
+    transform-origin: bottom;
+    transform: rotateX(180deg);
+    line-height: 113px;
+    background:linear-gradient(0deg, #fff 0, transparent 80%);
+    -webkit-background-clip: text;
+    color:transparent;
+    opacity: 0.5; 
+}
+
+h3 {
+    font-size: 35px;
+}
+
+a {
+    color: white;
+}
+.imgII {
+    background-image: url("image/cyberai.jpg");
+    background-size:cover;
+    color: white;
+    padding: 5rem;
+}
+/*.tem {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+*/
+
+/*blur background*/
+.tem{
+
+    max-width: 80vw;
+    height: 400px;
+    margin: auto;
+    padding: 3%;
+}
+.glass{
+    height: 500px;
+    background: linear-gradient(180deg, rgba(3, 0, 18, 0.575), rgba(1, 2, 11, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 5px solid rgba(1, 1, 18, 0.175);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+.type-text {
+    display: flex;
+    margin: 0;
+    justify-content:space-evenly;
+    padding-top: 5rem;
+    
+}
+
+.type-spaceL {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    max-width: 50%;
+    min-height: 200px;
+}
+.type-spaceR {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 1rem;
+    max-width: 50%;
+    min-height: 200px;
+    text-align: left;
+}
+h3.type-titleR {
+    text-align: right;
+    padding-top: 5rem;
+    padding-right: 5rem;
+}
+h3.type-titleL {
+    text-align: left;
+    padding-top: 5rem;
+    
+}
+.block {
+    width: 30vw;
+    height: 20vw;
+    background-color:mediumslateblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+iframe {
+    border-radius: 20px;
+   
+}
+
+.type-listR {
+    list-style-position:inside;
+
+}
+audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ul {
+    list-style-type: none;
+}
+
+.solotext {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    min-width: 50vw;
+}
+
+nav{
+    display: flex;
+    padding: 0px 6%;
+
+    justify-content: space-between;
+    align-items: center;
+    background: #6E427B;
+}
+
+nav img{
+    padding-top: 10px;
+    width: 35px;
+    
+}
+
+nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 12px;
+
+    position: relative;
+}
+
+.nav-links ul li a{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li :hover::after{
+    width: 100%;
+}
+nav .fa{
+    display: none;
+}
+
+@media(max-width: 700px){
+    .GenAiDevelopmentIntro h1{
+        font-size: 20px;
+    }
+
+    .nav-links ul li{
+        display:block;
+    }
+    .nav-links{
+        position: absolute;
+        background: black;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index:2;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+
+    }
+}
+p, ul, a.norm {
+    font-size: 20px;
+}
+
+table {
+
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100vw;
+    height: 200px;
+    font-size: 15px;
+    text-align:center;
+
+}
+
+footer{
+    padding: 5% 5% 5%;
+    color: white;
+    font-size: 20;
+    background: #6E427B;
+}
+
+p {
+    text-align:center;
+    padding-top: 1frem;
+}
