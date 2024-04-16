@@ -255,7 +255,7 @@ table {
     height: 200px;
     font-size: 15px;
     text-align:center;
-
+    color: white;
 }
 footer{
     padding: 5% 5% 5%;
@@ -267,5 +267,4 @@ footer{
 p.foot {
     text-align:center;
     padding-top: 1rem;
-    font
 }
